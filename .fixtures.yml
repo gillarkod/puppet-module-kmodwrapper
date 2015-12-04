@@ -1,0 +1,6 @@
+fixtures:
+  repositories:
+    stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    kmod: "https://github.com/camptocamp/puppet-kmod.git"
+  symlinks:
+    kmodwrapper: "#{source_dir}"

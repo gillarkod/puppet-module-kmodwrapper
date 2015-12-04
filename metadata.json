@@ -1,0 +1,37 @@
+{
+  "name": "puppet-module--kmodwrapper",
+  "version": "0.1.0",
+  "author": "Takeshi Larsson",
+  "summary": "Wrapper for puppet-kmod module",
+  "license": "Apache-2.0",
+  "source": "github.com/propyless/puppet-module-kmodwrapper",
+  "project_page": "https://github.com/propyless/puppet-module-kmodwrapper/",
+  "issues_url": "https://github.com/propyless/puppet-module-kmodwrapper/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppet-kmod",
+      "version_requirement": ">= 2.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
