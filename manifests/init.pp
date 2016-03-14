@@ -12,17 +12,17 @@
 #
 class kmodwrapper (
   $aliases                = undef,
-  $aliases_hiera_merge    = true,
+  $aliases_hiera_merge    = false,
   $blacklists             = undef,
-  $blacklists_hiera_merge = true,
+  $blacklists_hiera_merge = false,
   $installs               = undef,
-  $installs_hiera_merge   = true,
+  $installs_hiera_merge   = false,
   $loads                  = undef,
-  $loads_hiera_merge      = true,
+  $loads_hiera_merge      = false,
   $options                = undef,
-  $options_hiera_merge    = true,
+  $options_hiera_merge    = false,
   $settings               = undef,
-  $settings_hiera_merge   = true,
+  $settings_hiera_merge   = false,
   ) {
     include ::kmod
     if is_string($aliases_hiera_merge) {
